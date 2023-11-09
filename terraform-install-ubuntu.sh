@@ -5,3 +5,4 @@ gpg --no-default-keyring  --keyring /usr/share/keyrings/hashicorp-archive-keyrin
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee    /etc/apt/sources.list.d/hashicorp.list
 sudo apt update -y
 sudo apt-get install terraform -y
+sudo apt  install awscli -y
