@@ -7,3 +7,11 @@ sudo apt update -y
 sudo apt-get install terraform -y
 sudo apt  install awscli -y
 sudo apt  install zip unzip -y
+alias t="terraform"
+alias tp="terraform  plan"
+alias ta="terraform  apply"
+alias td="terraform  destroy"
+alias ti="terraform  init"
+alias tp="terraform  plan"
+alias ta="terraform  apply"
+alias td="terraform  destroy"
